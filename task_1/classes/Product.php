@@ -5,12 +5,10 @@ class Product
     private $nameProduct; // название продукта
     private $priceProduct; // цена продукта
 
-    public function __construct($nameProduct)
+    public function __construct($nameProduct, $priceProduct)
     {
-
         $this->nameProduct = $nameProduct;
         $this->priceProduct = $priceProduct;
-
     }
 
     public function getName()
