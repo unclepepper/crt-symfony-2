@@ -1,4 +1,5 @@
 <?php
+require_once 'nav.php';
 require_once 'Classes/Order.php';
 require_once 'Classes/Product.php';
 require_once 'Classes/Basket.php';
