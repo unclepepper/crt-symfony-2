@@ -14,9 +14,9 @@ require_once 'Classes/BasketPosition.php';
 
  
 $basket = new Basket();
-$basket->addProduct(new Product('pizza', 500), 2);
-$basket->addProduct(new Product('rolls', 600), 2);
-$basket->addProduct(new Product('mango', 100), 6);
+$basket->addProduct(new Product('pizza', 400), 2);
+$basket->addProduct(new Product('rolls', 1000), 2);
+$basket->addProduct(new Product('juice', 100), 4);
 echo $basket->describe();
 
 
