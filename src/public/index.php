@@ -21,7 +21,13 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="task_1/index.php">Task_1</a>
+          <a class="nav-link" href="/task_1/index.php">Task_1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/task_2/index.php">Task_2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/task_3/index.php">Task_3</a>
         </li>
         
       </ul>
