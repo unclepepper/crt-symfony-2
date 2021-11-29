@@ -9,16 +9,27 @@ if(isset($_POST["id"]) && isset($_POST["name"]) && isset($_POST["age"]) && isset
     $name = trim($_POST["name"]);
     $age = trim($_POST["age"]);
     $emain = trim($_POST["email"]);
-    $user = new User($id);
+    $user = new User($id,$name,$age,$emain);
+    $data = 
+    [
+        'id'=> $id,
+        'name'=> $name, 
+        'age'=> $age, 
+        'user'=> $user
+    ];
+    $user-> save($data);
+    
     
 try{
     
     $user->load($id); 
+    
 
 }catch(Exception $ex){
-    echo '<div class=" col-md-12 mt-4"><h3 class="text-center text-success">' .
-                                     $ex->getMessage()  .
-                                    '</h3></div>';
+    echo '<div class=" col-md-12 mt-4"><h3 
+    class="text-center text-success">' .
+                    $ex->getMessage()  .
+                    '</h3></div>';
 }
 }
 
