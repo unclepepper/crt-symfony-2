@@ -10,7 +10,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light mb-3" style="background-color: #e3f2fd;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">task_1</a>
+    <a class="navbar-brand" href="#">task_3</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,9 +19,12 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/index.php">Home</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="task_1/index.php">Task_2</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/task_1/index.php">Task_1</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/task_2/index.php">Task_2</a>
+        </li> 
         
       </ul>
       <!-- <form class="d-flex">
