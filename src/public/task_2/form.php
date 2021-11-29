@@ -2,10 +2,10 @@
     <div class="row">
         <div class="col-md-6 offset-md-3" >
             <!-- form start -->
-            <form >
+            <form method="POST" action="index.php">
                 <div class="mb-3 form-group">
-                    <label for="login" class="form-label">Login</label>
-                    <input type="text" name="login" class="form-control" id="login">
+                    <label for="id" class="form-label">ID </label>
+                    <input type="number" name="id" class="form-control" id="id">
                 </div>
                 <div class="mb-3 form-group">
                     <label for="name" class="form-label">First name</label>
@@ -27,3 +27,5 @@
         </div>
     </div>
 </div>
+</body>
+</html>
